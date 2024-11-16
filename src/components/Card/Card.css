@@ -1,0 +1,44 @@
+.card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .ticket-id {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .card-title h3 {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  
+  .tag {
+    background: #f4f4f4;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: 1px solid #e0e0e0;
+  }
+  .status-icon, .priority-icon {
+    font-size: 16px; /* Adjust size as needed */
+  }
